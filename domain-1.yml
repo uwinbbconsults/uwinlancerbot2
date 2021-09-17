@@ -1,0 +1,413 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- BBI_TEST_U040102:
+    use_entities: true
+- BBI_TEST_U040201:
+    use_entities: true
+- BBI_TEST_U040202:
+    use_entities: true
+- BBI_TEST_U040200:
+    use_entities: true
+- BBI_DISC_U010000:
+    use_entities: true
+- BBI_DISC_U020000:
+    use_entities: true
+- BBI_DISC_U030000:
+    use_entities: true
+- BBI_DISC_U010100:
+    use_entities: true
+- BBI_DISC_U010200:
+    use_entities: true
+- BBI_DISC_U010101:
+    use_entities: true
+- BBI_DISC_U010102:
+    use_entities: true
+- BBI_DISC_U010202:
+    use_entities: true
+- BBI_DISC_U010201:
+    use_entities: true
+- BBI_DISC_U020100:
+    use_entities: true
+- BBI_DISC_U020200:
+    use_entities: true
+- BBI_DISC_U020201:
+    use_entities: true
+- BBI_DISC_U020202:
+    use_entities: true
+- BBI_DISC_U020300:
+    use_entities: true
+- BBI_DISC_U020400:
+    use_entities: true
+- BBI_DISC_U030100:
+    use_entities: true
+- BBI_DISC_U030200:
+    use_entities: true
+- BBI_DISC_U030201:
+    use_entities: true
+- BBI_DISC_U030202:
+    use_entities: true
+- BBI_SAFE_U000000:
+    use_entities: true
+- BBI_SAFE_U010000:
+    use_entities: true
+- BBI_SAFE_U020000:
+    use_entities: true
+- BBI_SAFE_U030000:
+    use_entities: true
+- BBI_SAFE_U010100:
+    use_entities: true
+- BBI_SAFE_U010200:
+    use_entities: true
+- BBI_SAFE_U010201:
+    use_entities: true
+- BBI_SAFE_U010202:
+    use_entities: true
+- BBI_SAFE_U020100:
+    use_entities: true
+- BBI_SAFE_U020200:
+    use_entities: true
+- BBI_DISC_U000000:
+    use_entities: true
+- BBI_CLLB_U000000:
+    use_entities: true
+- BBI_CLLB_U010000:
+    use_entities: true
+- BBI_U000000:
+    use_entities: true
+- BBI_ASGN_U000000:
+    use_entities: true
+- BBI_ASGN_U010000:
+    use_entities: true
+- BBI_ASGN_U020000:
+    use_entities: true
+- BBI_ASGN_U030000:
+    use_entities: true
+- BBI_ASGN_U040000:
+    use_entities: true
+- BBI_ASGN_U010100:
+    use_entities: true
+- BBI_ASGN_U010200:
+    use_entities: true
+- BBI_ADPT_U000000:
+    use_entities: true
+- BBI_ADPT_U010000:
+    use_entities: true
+- BBI_ADPT_U020000:
+    use_entities: true
+- BBI_ADPT_U030000:
+    use_entities: true
+- BBI_ADPT_U030100:
+    use_entities: true
+- BBI_ADPT_U030200:
+    use_entities: true
+- BBI_ADPT_U030201:
+    use_entities: true
+- BBI_ADPT_U030202:
+    use_entities: true
+- BBI_GRPW_U000000:
+    use_entities: true
+- BBI_GRPW_U010000:
+    use_entities: true
+- BBI_GRPW_U020000:
+    use_entities: true
+- BBI_GRPW_U030000:
+    use_entities: true
+- BBI_GRPW_U040000:
+    use_entities: true
+- BBI_GRPW_U010100:
+    use_entities: true
+- BBI_GRPW_U010200:
+    use_entities: true
+- BBI_GRPW_U010101:
+    use_entities: true
+- BBI_GRPW_U010102:
+    use_entities: true
+- BBI_GRPW_U010201:
+    use_entities: true
+- BBI_GRPW_U010202:
+    use_entities: true
+- BBI_GRPW_U010203:
+    use_entities: true
+- BBI_GRPW_U020100:
+    use_entities: true
+- BBI_GRPW_U020200:
+    use_entities: true
+- BBI_GRPW_U020300:
+    use_entities: true
+- BBI_GRPW_U020301:
+    use_entities: true
+- BBI_GRPW_U020302:
+    use_entities: true
+- BBI_GRPW_U020400:
+    use_entities: true
+- BBI_GRPW_U020500:
+    use_entities: true
+- BBI_GRPW_U030100:
+    use_entities: true
+- BBI_GRPW_U030200:
+    use_entities: true
+- BBI_GRPW_U030300:
+    use_entities: true
+- BBI_GRPW_U040100:
+    use_entities: true
+- BBI_GRPW_U040200:
+    use_entities: true
+- BBI_RBRC_U010000:
+    use_entities: true
+- BBI_RBRC_U020000:
+    use_entities: true
+- BBI_RBRC_U030000:
+    use_entities: true
+- BBI_RBRC_U040000:
+    use_entities: true
+- BBI_RBRC_U030100:
+    use_entities: true
+- BBI_RBRC_U030200:
+    use_entities: true
+- BBI_RBRC_U030201:
+    use_entities: true
+- BBI_RBRC_U030202:
+    use_entities: true
+- BBI_RBRC_U030300:
+    use_entities: true
+- BBI_RBRC_U040100:
+    use_entities: true
+- BBI_RBRC_U040200:
+    use_entities: true
+- BBI_RBRC_U040300:
+    use_entities: true
+- BBI_GRAD_U000000:
+    use_entities: true
+- BBI_GRAD_U010000:
+    use_entities: true
+- BBI_GRAD_U010100:
+    use_entities: true
+- BBI_GRAD_U010200:
+    use_entities: true
+- BBI_GRAD_U010300:
+    use_entities: true
+- BBI_GRAD_U010400:
+    use_entities: true
+- BBI_GRAD_U010500:
+    use_entities: true
+- BBI_GRAD_U010600:
+    use_entities: true
+- BBI_GRAD_U010101:
+    use_entities: true
+- BBI_GRAD_U010102:
+    use_entities: true
+- BBI_GRAD_U010301:
+    use_entities: true
+- BBI_GRAD_U010501:
+    use_entities: true
+- BBI_GRAD_U010502:
+    use_entities: true
+- BBI_GRAD_U010503:
+    use_entities: true
+- BBI_GRAD_U010601:
+    use_entities: true
+- BBI_GRAD_U010602:
+    use_entities: true
+- BBI_GRAD_U010101D:
+    use_entities: true
+- BBI_GRAD_U010102D:
+    use_entities: true
+- BBI_GRAD_U010200D:
+    use_entities: true
+- BBI_GRAD_U010301D:
+    use_entities: true
+- BBI_GRAD_U010400D:
+    use_entities: true
+- BBI_GRAD_U010501D:
+    use_entities: true
+- BBI_GRAD_U010502D:
+    use_entities: true
+- BBI_GRAD_U010503D:
+    use_entities: true
+- BBI_GRAD_U010601D:
+    use_entities: true
+- BBI_GRAD_U010602D:
+    use_entities: true
+- NLU_U_greeting:
+    use_entities: true
+- BBI_RBRC_U000000:
+    use_entities: true
+- BBI_TEST_U000000:
+    use_entities: true
+- BBI_JRNL_U000000:
+    use_entities: true
+- BBI_JRNL_U020000:
+    use_entities: true
+- BBI_JRNL_U010000:
+    use_entities: true
+- BBI_JRNL_U030000:
+    use_entities: true
+- BBI_JRNL_U040000:
+    use_entities: true
+- BBI_TEST_U020000:
+    use_entities: true
+- BBI_TEST_U010000:
+    use_entities: true
+- BBI_TEST_U030000:
+    use_entities: true
+- BBI_TEST_U040000:
+    use_entities: true
+- BBI_JRNL_U020100:
+    use_entities: true
+- BBI_JRNL_U020200:
+    use_entities: true
+- BBI_JRNL_U030100:
+    use_entities: true
+- BBI_JRNL_U030200:
+    use_entities: true
+- BBI_TEST_U010100:
+    use_entities: true
+- BBI_TEST_U010200:
+    use_entities: true
+- BBI_TEST_U010300:
+    use_entities: true
+- BBI_TEST_U010400:
+    use_entities: true
+- BBI_TEST_U010401:
+    use_entities: true
+- BBI_TEST_U010402:
+    use_entities: true
+- BBI_TEST_U020100:
+    use_entities: true
+- BBI_TEST_U020200:
+    use_entities: true
+- BBI_TEST_U020300:
+    use_entities: true
+- BBI_TEST_U030100:
+    use_entities: true
+- BBI_TEST_U030200:
+    use_entities: true
+- BBI_TEST_U030300:
+    use_entities: true
+- BBI_TEST_U040100:
+    use_entities: true
+- BBI_TEST_U040101:
+    use_entities: true
+- BBI_CLLB_U020000:
+    use_entities: true
+- BBI_CLLB_U030000:
+    use_entities: true
+- BBI_CLLB_U040000:
+    use_entities: true
+- BBI_CLLB_U050000:
+    use_entities: true
+- BBI_CLLB_U060000:
+    use_entities: true
+- BBI_CLLB_U070000:
+    use_entities: true
+- BBI_CLLB_U010100:
+    use_entities: true
+- BBI_CLLB_U010200:
+    use_entities: true
+- BBI_CLLB_U010300:
+    use_entities: true
+- BBI_CLLB_U010400:
+    use_entities: true
+- BBI_CLLB_U010500:
+    use_entities: true
+- BBI_CLLB_U010600:
+    use_entities: true
+- BBI_CLLB_U010700:
+    use_entities: true
+- BBI_CLLB_U020100:
+    use_entities: true
+- BBI_CLLB_U020200:
+    use_entities: true
+- BBI_CLLB_U020300:
+    use_entities: true
+- BBI_CLLB_U020400:
+    use_entities: true
+- BBI_CLLB_U020500:
+    use_entities: true
+- BBI_CLLB_U030100:
+    use_entities: true
+- BBI_CLLB_U030200:
+    use_entities: true
+- BBI_CLLB_U030300:
+    use_entities: true
+- BBI_CLLB_U030400:
+    use_entities: true
+- BBI_CLLB_U050100:
+    use_entities: true
+- BBI_CLLB_U050200:
+    use_entities: true
+- BBI_CLLB_U070100:
+    use_entities: true
+- BBI_CLLB_U070200:
+    use_entities: true
+- BBI_CLLB_U070300:
+    use_entities: true
+- BBI_CLLB_U010101:
+    use_entities: true
+- BBI_CLLB_U010102:
+    use_entities: true
+- BBI_CLLB_U010103:
+    use_entities: true
+- BBI_CLLB_U010104:
+    use_entities: true
+- BBI_CLLB_U010105:
+    use_entities: true
+- BBI_CLLB_U010106:
+    use_entities: true
+- BBI_CLLB_U030301:
+    use_entities: true
+- BBI_CLLB_U030302:
+    use_entities: true
+- BBI_CLLB_U030303:
+    use_entities: true
+- BBI_CLLB_U030304:
+    use_entities: true
+- BBI_CLLB_U030401:
+    use_entities: true
+- BBI_CLLB_U030402:
+    use_entities: true
+- BBI_CLLB_U030403:
+    use_entities: true
+- BBI_CLLB_U010100D:
+    use_entities: true
+- BBI_CLLB_U010200D:
+    use_entities: true
+- BBI_CLLB_U010300D:
+    use_entities: true
+- BBI_CLLB_U010400D:
+    use_entities: true
+- BBI_CLLB_U010500D:
+    use_entities: true
+- BBI_CLLB_U010600D:
+    use_entities: true
+- BBI_CLLB_U010700D:
+    use_entities: true
+- BBI_CLLB_U020000D:
+    use_entities: true
+- BBI_CLLB_U030000D:
+    use_entities: true
+- BBI_CLLB_U040000D:
+    use_entities: true
+- BBI_CLLB_U050100D:
+    use_entities: true
+- BBI_CLLB_U050200D:
+    use_entities: true
+- BBI_CLLB_U060000D:
+    use_entities: true
+- BBI_CLLB_U070100W:
+    use_entities: true
+- BBI_CLLB_U070200W:
+    use_entities: true
+- BBI_CLLB_U070300W:
+    use_entities: true
+entities: []
+slots: {}
+responses: {}
+actions: []
+forms: {}
+e2e_actions: []
